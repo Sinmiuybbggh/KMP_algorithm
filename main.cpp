@@ -17,7 +17,7 @@ void Getnext(int (&next)[MAX_LENGTH], int pattern_length, string &pattern) //°üº
     }
 }
 
-int KMP(string &text, string &pattern)
+int KMP(string &text, string &pattern) //KMPËã·¨ÊµÏÖ
 {
     int text_length = text.length();
     int pattern_length = pattern.length();
@@ -42,7 +42,7 @@ int KMP(string &text, string &pattern)
 
     return -1;                   //Ã»ÕÒµ½·µ»Ø-1
 }
-int main()
+int main()                      //ÓÃÓÚ²âÊÔµÄmainº¯Êı
 {
     string text;
     string pattern;
