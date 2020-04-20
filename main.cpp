@@ -3,7 +3,7 @@
 using namespace std;
 
 void Getnext(int (&next)[MAX_LENGTH], int pattern_length, string &pattern) //包含递归的思想
-{
+{         //Just  a test
     next[0] = -1;
     int i = 0, j = -1;               //为了方便将两种情况统一起来
     while(i < pattern_length - 1)    //i指向此时求next的元素的前一位
