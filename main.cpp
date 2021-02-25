@@ -1,7 +1,7 @@
 #include <iostream>
 #define MAX_LENGTH 50
 using namespace std;
-
+//test
 void Getnext(int (&next)[MAX_LENGTH], int pattern_length, string &pattern) //包含递归的思想
 {         //Just  a test
     next[0] = -1;
